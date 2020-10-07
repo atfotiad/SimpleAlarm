@@ -1,0 +1,94 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/alarms">
+
+        <SwitchPreferenceCompat
+            app:key="@string/monday"
+            app:summary="set up for Monday "
+            app:title="Schedule alarm for Monday" />
+
+        <Preference
+            app:dependency="@string/monday"
+            app:key="time_monday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="Tuesday"
+            app:summary="set up for Tuesday "
+            app:title="Schedule alarm for Tuesday" />
+
+        <Preference
+            app:dependency="Tuesday"
+            app:key="time_tuesday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="Wednesday"
+            app:summary="set up for Wednesday "
+            app:title="Schedule alarm for Wednesday" />
+
+        <Preference
+            app:dependency="Wednesday"
+            app:key="time_wednesday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+
+        <SwitchPreferenceCompat
+            app:key="Thursday"
+            app:summary="set up for Thursday "
+            app:title="Schedule alarm for Thursday" />
+
+        <Preference
+            app:dependency="Thursday"
+            app:key="time_thursday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/friday"
+            app:summary="set up for Friday "
+            app:title="Schedule alarm for Friday" />
+
+        <Preference
+            app:dependency="@string/friday"
+            app:key="time_friday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="Saturday"
+            app:summary="set up for Saturday "
+            app:title="Schedule alarm for Saturday" />
+
+        <Preference
+            app:dependency="Saturday"
+            app:key="time_saturday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="Sunday"
+            app:summary="set up for Sunday "
+            app:title="Schedule alarm for Sunday" />
+
+        <Preference
+            app:dependency="Sunday"
+            app:key="time_sunday"
+            app:summary="Set the exact time you want to get daily notifications"
+            app:title="Notification time"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
